@@ -1,0 +1,17 @@
+name: review_rating_classification
+channels:
+  - conda-forge
+dependencies:
+  - ipykernel
+  - openpyxl
+  - nodejs
+  - numpy
+  - pandas
+  - pip
+  - python=3.7.0
+  - scikit-learn
+  - typing
+  - tqdm
+  - pip:
+      - glob3
+      - pickle-mixin
